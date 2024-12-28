@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Surat Keterangan Usaha</title>
+    <style>
+      @media print {
+        body {
+          width: 210mm;
+          height: 297mm;
+        }
+      }
+
+      body {
+        background-color: white;
+        color: #111827;
+        padding: 4rem;
+        font-family: serif;
+        line-height: 1.5;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      .header-text {
+        line-height: 1.2;
+      }
+
+      .header-divider {
+        border-top: 2px solid black;
+        margin-top: 1rem;
+      }
+
+      .government-name {
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin: 0;
+      }
+
+      .district-name {
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin: 0.5rem 0;
+      }
+
+      .village-name {
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin: 0.5rem 0;
+      }
+
+      .address {
+        font-size: 1rem;
+        margin: 0.5rem 0;
+      }
+
+      .postal-code {
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin: 0.5rem 0;
+      }
+
+      .document-title {
+        font-size: 1.25rem;
+        font-weight: bold;
+        text-decoration: underline;
+        margin: 2rem 0 0.5rem 0;
+      }
+
+      .document-number {
+        margin-bottom: 2rem;
+      }
+
+      .content-text {
+        text-align: justify;
+        text-indent: 2rem;
+        margin: 1rem 0;
+      }
+
+      .data-table {
+        margin: 1rem 0;
+      }
+
+      .data-label {
+        width: 200px;
+        vertical-align: top;
+        padding: 0.25rem 0;
+      }
+
+      .signature-section {
+        margin-top: 3rem;
+        text-align: right;
+      }
+
+      .stamp-placeholder {
+        width: 120px;
+        height: 120px;
+        margin: 1rem 0 1rem auto;
+        position: relative;
+      }
+
+      .stamp-placeholder::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border: 2px solid #666;
+        border-radius: 50%;
+        top: 0;
+        left: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td style="width: 120px; text-align: center; vertical-align: top">
+          <img
+            src="sindangkasih-sugih-mukti-logo-7BA62C1744-seeklogo.com.png"
+            alt="Logo Pemerintah"
+            style="width: 100px; height: auto"
+          />
+        </td>
+        <td style="text-align: center" class="header-text">
+          <h1 class="government-name">Pemerintah Kabupaten Majalengka</h1>
+          <h2 class="district-name">Kecamatan Lemahsugih</h2>
+          <h2 class="village-name">Desa Kepuh</h2>
+          <p class="address">
+            Alamat: Jln Raya Desa Kepuh No 01 Kec. Lemahsugih Kab. Majalengka 45465
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2"><hr class="header-divider" /></td>
+      </tr>
+    </table>
+
+    <div style="text-align: center">
+      <h2 class="document-title">SURAT KETERANGAN PENGHASILAN</h2>
+      <p class="document-number">Nomor : 470/226/DS-2024</p>
+    </div>
+
+    <p class="content-text">
+      Yang bertanda tangan di bawah ini. Kepala Desa Kepuh Kecamatan Lemahsugih Kabupaten
+      Majalengka, dengan in menerangkan bahwa:
+    </p>
+
+    <table class="data-table">
+      <tr>
+        <td class="data-label">Nama</td>
+        <td>: ENDY PANDU NUGROHO</td>
+      </tr>
+      <tr>
+        <td class="data-label">NIK</td>
+        <td>: 3515061109870002</td>
+      </tr>
+      <tr>
+        <td class="data-label">Tempat, Tanggal Lahir</td>
+        <td>: SIDOARJO, 11-09-1987</td>
+      </tr>
+      <tr>
+        <td class="data-label">Pekerjaan</td>
+        <td>: Pedagang</td>
+      </tr>
+      <tr>
+        <td class="data-label">Alamat</td>
+        <td>: Kepuh RT 00 RW 001 Desa Kepuh Kec. Lemahsugih Kab. Majalengka</td>
+      </tr>
+    </table>
+
+    <p class="content-text">Orang tersebut diatas benar-benar mempunyai usaha :</p>
+
+    <table class="data-table">
+      <tr>
+        <td class="data-label">Nama Usaha</td>
+        <td>: UD TANI MAJU</td>
+      </tr>
+      <tr>
+        <td class="data-label">Jenis Usaha</td>
+        <td>: PETERNAKAN SAPI</td>
+      </tr>
+      <tr>
+        <td class="data-label">Alamat</td>
+        <td>: DESA GANGGANGPANJANG RT 06 RW 02 TANGGULANGIN</td>
+      </tr>
+    </table>
+
+    <p class="content-text">
+      Demikian surat keterangan ini kami buat dengan sebenar-benarnya dan untuk dipergunakan
+      sebagaimana mestinya.
+    </p>
+
+    <div class="signature-section">
+      <p>Tanggulangin, 21 Januari 2019</p>
+      <p>Kepala Desa Ganggangpanjang</p>
+      <div class="stamp-placeholder"></div>
+      <p>MUHAMMAD ADENAN</p>
+    </div>
+  </body>
+</html>
